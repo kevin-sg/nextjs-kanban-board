@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+	h1 {
+		@apply text-4xl text-foreground font-bold;
+	}
+	h2 {
+		@apply text-2xl text-gray-100 font-semibold;
+	}
+	h3 {
+		@apply text-lg text-gray-200;
+	}
+	h4 {
+		@apply text-sm text-foreground;
+	}
+	p,
+	span {
+		@apply text-foreground text-sm font-light;
+	}
+
+	/* button {
+		@apply text-white text-sm font-normal min-w-[7rem] h-10 px-4 inline-flex justify-center items-center gap-2 rounded-xl;
+	} */
+}
